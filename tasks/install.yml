@@ -21,7 +21,7 @@
   user:
     name: "{{ solr_user }}"
     group: "{{ solr_group }}"
-    home: "{{ solr_user_home }}"
+    home: "{{ solr_home }}"
     shell: "{{ solr_user_shell }}"
     uid: "{{ solr_user_uid }}"
     createhome: true
